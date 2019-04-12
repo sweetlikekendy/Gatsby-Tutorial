@@ -42,7 +42,7 @@ When used with GraphQL, the query must be in a StaticQuery component. This is im
 src > components > layout.js // example layout without styling and query
 ```
 
-```javascript
+```jsx
 import { StaticQuery } from "gatsby";
 
 export default ({ children }) => (
@@ -81,7 +81,7 @@ All pages in site will go here. Import your layout to use on all your pages from
 src > pages > about.js
 ```
 
-```javascript
+```jsx
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
@@ -117,7 +117,7 @@ Plugins will use files in here for configurations.
 
 Example of a [Typography.js](https://kyleamathews.github.io/typography.js/) plugin:
 
-```javascript
+```jsx
 import Typography from "typography";
 import kirkhamTheme from "typography-theme-kirkham";
 
@@ -131,7 +131,7 @@ export const rhythm = typography.rhythm;
 
 This file will enable plugins & hold site metadata.
 
-```javascript
+```jsx
 module.exports = {
   siteMetadata: {
     // site metadata goes here
@@ -147,7 +147,7 @@ module.exports = {
 
 Get file path to create a slug field with GraphQl query. Create page from new slug field.
 
-```javascript
+```jsx
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
