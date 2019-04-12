@@ -24,7 +24,7 @@ Typical file structure for a Gatsby project will look like this:
 +-- gatsby-node.js
 ```
 
-Continued explanation will follow this file structure from the top down.
+Continued explanation will follow this file structure from the top-down.
 
 ## Components
 
@@ -71,7 +71,7 @@ export default ({ children }) => (
 
 ## Images
 
-Images will go here
+Images will go here.
 
 ## Pages
 
